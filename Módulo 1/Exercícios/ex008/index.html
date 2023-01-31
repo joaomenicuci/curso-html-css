@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag <strong>&lt;b&gt;</strong>.</p>
+    <p>Porém a forma correta é utilizar a tag <strong>&lt;strong&gt;</strong>.</p>
+
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em itálico</i> usando a tag <strong>&lt;i&gt;</strong>.</p>
+    <p>Porém a forma correta é utilizar a tag <strong>&lt;em&gt;</strong>.</p>
+
+    <h2>Texto Marcado</h2>
+    <p>Nesta frase temos um <mark>texto marcado</mark> usando a tag <strong>&lt;mark&gt;</strong>.</p>
+    <p>Para mudar a cor do texto marcado é só utliizar a tag da seguinte forma: <strong>&lt;mark style="background-color:COR;"&gt;</strong>.</p>
+
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um <big>Texto Grande</big> e um <small>Texto Pequeno</small> nesse parágrafo.</p>
+    <p>Para fazer um texto grande usar a tag <strong>&lt;big&gt;</strong>, e para um texto pequeno usar a tag <strong>&lt;small&gt;</strong>.</p>
+
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <p>Para marcar o texto como excluido, utilizar a tag <strong>&lt;del&gt;</strong>.</p>
+
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Para marcar o texto como inserido, utilizar a tag <strong>&lt;ins&gt;</strong>.</p>
+    <p>Existe também o <u>texto sublinhado</u> com a tag <strong>&lt;u&gt;</strong>.</p>
+
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir caractéres do tipo x<sup>10</sup> + 3, utilizamos a tag <strong>&lt;sup&gt;</strong>.</p>
+
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir caractéres do tipo H<sub>2</sub>O, utilizamos a tag <strong>&lt;sub&gt;</strong>.</p>
+
+    <h2>Código-Fonte / Pré-Formatação</h2>
+    <p>O comando <code>window.document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do Programa')
+        </code>
+    </pre>
+
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
+
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote citi="https://www.google.com.br/books/edition/HTML_XHTML_and_CSS_For_Dummies/EGp9DgAAQBAJ?hl=pt-BR&gbpv=0">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo> / <bdo dir="ltr">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 3px grey;
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: grey;
+            padding: 3px;
+            box-shadow: 1px 1px 3px gray;
+            border-radius: 5px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 3px grey;
+            border-radius: 10px;
+        }
+
+        section > p{
+            background-color: lightgrey;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 3px grey;
+            border-radius: 5px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 3px grey;
+            border-radius: 5px;
+        }
+
+        footer{
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link #1</a>
+            <a href="#">Link #2</a>
+            <a href="#">Link #3</a>
+            <a href="#">Link #4</a>
+            <a href="#">Link #5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><strong>Ultímas Notícias | Política | Tecnologia | Esportes</strong></p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse magnam dicta id blanditiis. Reiciendis officia maxime totam aut! Et praesentium voluptas quo temporibus eius distinctio error recusandae nostrum voluptatibus vero? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos autem, quas quisquam doloribus, provident possimus beatae fuga perspiciatis voluptate facere vero labore numquam, architecto cumque inventore corrupti? Accusamus, nihil nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius libero, numquam eveniet, veniam eligendi ipsum aut, eos unde cupiditate quam. Quisquam quas praesentium beatae officiis, blanditiis sunt molestiae reiciendis!</p>
+                <aside>
+                    <p>Artigo escrito por João Lucas Menicuci</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícia sobre o Mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem quos placeat? Perferendis sequi ducimus delectus, temporibus omnis magnam quibusdam. Possimus rem impedit nisi est quasi aliquid alias earum velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus nostrum, quis animi quia corporis ipsam ab totam iste molestiae ipsum vitae pariatur cumque praesentium repudiandae? Ea, quae. Deleniti, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit, illo atque at maxime quibusdam totam veritatis nam. Saepe dolore consequatur aliquid deleniti eum ex porro, voluptatem expedita unde numquam!</p>
+                <aside>
+                    <p>Artigo escrito por João Lucas Menicuci</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p><em>Site desenvolvido por João Lucas Menicuci</em></p>
+    </footer>
+</body>
+</html>
