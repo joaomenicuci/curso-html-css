@@ -12,6 +12,7 @@ body{
 
 header{
     background-color: grey;
+    color: black;
 }
 
 header > h1{
@@ -22,7 +23,7 @@ header > h1{
 span#burger{
     background-color: grey;
     display: block;
-    color:black;
+    color:white;
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -30,7 +31,7 @@ span#burger{
 
 span#burger:hover{
     background-color: lightgray;
-    color: white;
+    color: black;
 }
 
 menu{

@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
@@ -35,13 +35,23 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque nostrum voluptas nisi repellendus quod iste eum, delectus excepturi fugiat veniam sit unde cupiditate perspiciatis, animi voluptatum voluptates harum quisquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste dolores eum suscipit non. Deserunt fugit blanditiis assumenda ipsa, explicabo quos sit veniam odit quas nihil totam amet quidem molestias odio.</p>
         </article>
     </main>
+
     <script>
+
         function clickMenu(){
 
             if(menu.style.display == 'block'){
                 menu.style.display = 'none'
             } else{
                 menu.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                menu.style.display = 'block'
+            } else{
+                menu.style.display = 'none'
             }
         }
     </script>
