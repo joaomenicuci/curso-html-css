@@ -20,17 +20,17 @@ header > h1{
 }
 
 span#burger{
-    background-color: darkgrey;
+    background-color: grey;
     display: block;
-    color:white;
+    color:black;
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 
 span#burger:hover{
-    background-color: grey;
-    color: black;
+    background-color: lightgray;
+    color: white;
 }
 
 menu{
@@ -53,6 +53,7 @@ menu > ul > li > a{
 
 menu > ul > li > a:hover{
     background-color: grey;
+    color: black;
 }
 
 main{
