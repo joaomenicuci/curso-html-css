@@ -1,8 +1,6 @@
 # HTML5 e CSS3
-<br>
 
  ## Curso de HTML5 e CSS3 com 160 horas
-<br>
  
  Este curso de HTML5 e CSS3 é fornecido pelo site do [Curso em Vídeo](https://www.cursoemvideo.com/), e as aulas são ministradas pelo professor Gustavo Guanabara.
  
